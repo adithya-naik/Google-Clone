@@ -1,0 +1,95 @@
+*{
+  font-family: "Poppins";
+  font-size: small;
+  user-select: none;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+a{
+  text-decoration: none;
+}
+button{
+  margin-left:10px;
+  border-radius: 25px;
+  width: 90px;
+  height: 38px;
+  cursor: pointer;
+  border: none;
+  font-size: medium;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #fff; */
+}
+button:hover{
+  background-color: rgba(100, 97, 97, 0.423);
+}
+input{
+  margin: 10px;
+  border-radius: 15px;
+  width: 646px;
+  height: 38px;
+  font-size: medium;
+  padding-left: 8px;
+  outline:none;
+  border: none;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+ul li{
+  margin: 7px;
+  padding: 7px;
+  list-style: none;
+}
+ul li:hover{
+  background-color: rgba(196, 169, 169, 0.353);
+  border-radius: 20px;
+}
+li img,a img{
+  filter: invert();
+}
+p img{
+  cursor: pointer;
+}
+li{
+  cursor: pointer;
+}
+.search{
+  display: flex;
+  /* border: 1px solid red; */
+  margin: 10px;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  background-color: rgba(245, 245, 245, 0.855);
+  border-radius: 24px;
+  padding: 0px;
+}
+.search-logo{
+  border: 1px solid red;
+}
+.left-side-search{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-side-search p {
+  margin-right: 15px; /* Adds space between the elements */
+  display: inline-block; /* Keeps the elements in one row */
+}
